@@ -1,10 +1,10 @@
 import "./App.css";
+import Landing from "./pages/Landing";
 
 function App() {
   return (
     <div className="App">
-      <h1> Psyport Web </h1>
-      <h2> Test Second </h2>
+      <Landing />
     </div>
   );
 }
