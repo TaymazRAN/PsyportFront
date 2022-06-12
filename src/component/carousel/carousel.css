@@ -14,3 +14,7 @@
     background-repeat: no-repeat;
     background-image: url("../../assets/image/svg/carousel.svg");
 }
+
+.hello{
+    padding: 20px;
+}
