@@ -7,14 +7,14 @@ import Statistics from "../component/statistics/Statistics";
 
 function Landing() {
   return (
-    <div>
-      <Menutop />
-      <Statistics />
-      <Carousel />
-      <Faq />
-      <Footer />
-    </div>
-  );
+		<div>
+			<Menutop />
+			<Carousel />
+			<Statistics />
+			<Faq />
+			<Footer />
+		</div>
+	);
 }
 
 export default Landing;
