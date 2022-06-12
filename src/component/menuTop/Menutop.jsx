@@ -1,3 +1,4 @@
+import './menuTop.css';
 import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
@@ -36,7 +37,7 @@ const Menutop = () => {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" className="header">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />

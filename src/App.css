@@ -1,3 +1,22 @@
+@font-face {
+font-family: "Samim";
+src: url("./assets/font/Samim-WOL.woff2");
+}
+
+@font-face {
+font-family: "Samim-Bold";
+src: url("./assets/font/Samim-Bold-WOL.woff2");
+}
+
+*{
+  box-sizing: border-box;
+  font-family: "Samim", sans-serif!important;
+}
+
+body .bold{
+  font-family: "Samim-Bold", sans-serif!important;
+}
+
 .App {
   text-align: center;
 }

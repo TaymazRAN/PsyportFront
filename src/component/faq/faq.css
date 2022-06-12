@@ -1,0 +1,85 @@
+.faq{
+    display: flex;
+    justify-content: center;
+}
+
+.faqContainer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.faqData{
+    position: relative;
+    padding: 40px;
+    width: 100%;
+    max-width: 1100px;
+    border-radius: 15px;
+    background-color: #edededb0;
+    text-align: right;
+    direction: rtl;
+    margin-bottom: 40px;
+    backdrop-filter: blur(5px);
+}
+
+.faqData:last-child{
+    margin-bottom: 0;
+}
+
+.faqTitle{
+    font-size: 20px;
+    color: #444444;
+    margin-bottom: 15px;
+    text-shadow: 0 1px 3px #cccccc;
+}
+
+.faqDescription{
+    font-size: 16px;
+    color: #222222;
+}
+
+.faqPicture{
+    position: absolute;
+    top: -50px;
+    left: 70px;
+    width: 140px;
+    height: 140px;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/image/png/Group\ 7.png');
+}
+
+.faqDecorativeImage{
+    position: absolute;
+    top: -5%;
+    left: -5%;
+    width: 200px;
+    height: 200px;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/image/svg/triangle.svg');
+    z-index: -1;
+}
+
+.faqDecorativeImage.bottom{
+    top: unset;
+    left: unset;
+    bottom: -5%;
+    right: -5%;
+}
+
+@media only screen and (max-width: 1250px) {
+    .faqDecorativeImage{
+        left: 5px;
+        width: 160px;
+        height: 160px;
+    }
+    
+    .faqDecorativeImage.bottom{
+        right: 5px;
+    }
+  }
