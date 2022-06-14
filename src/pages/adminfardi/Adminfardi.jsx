@@ -1,7 +1,7 @@
 import TopBar from "../../component/topBar/TopBar";
 import SideBar from "../../component/sideBar/SideBar";
 import UserList from "../userList/UserList";
-import "./admin.css";
+import "./adminfardi.css";
 
 export default function Admin() {
   return (

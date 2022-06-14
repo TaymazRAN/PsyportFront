@@ -1,6 +1,6 @@
 import "./sideBar.css";
-import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
-import QuizIcon from "@mui/icons-material/Quiz";
+// import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
+// import QuizIcon from "@mui/icons-material/Quiz";
 import BiotechIcon from "@mui/icons-material/Biotech";
 
 export default function SideBar() {
@@ -8,28 +8,12 @@ export default function SideBar() {
     <div className="sideBar">
       <div className="sideBarWrapper">
         <div className="sideBarMenu">
-          <div className="sideBarTitle bold "> داشبورد مدیریت اصلی</div>
+          <div className="sideBarTitle bold "> داشبورد مدیریت فردی</div>
           <ul className="sideBarList">
-            <li className="sideBarListItem active">
-              <PersonOutlineIcon className="sideBarIcon" />
-              لیست کاربران
-            </li>
-
             <li className="sideBarListItem">
-              <QuizIcon className="sideBarIcon" />
-              گروه بندی پکیج
+              <BiotechIcon className="sideBarIcon" />
+              مدیریت پروفایل
             </li>
-
-            <li className="sideBarListItem">
-              <QuizIcon className="sideBarIcon" />
-              مدیریت پکیج ها
-            </li>
-
-            <li className="sideBarListItem">
-              <QuizIcon className="sideBarIcon" />
-              تخفیف ها
-            </li>
-
             <li className="sideBarListItem">
               <BiotechIcon className="sideBarIcon" />
               مدیریت کارنامه
@@ -44,15 +28,11 @@ export default function SideBar() {
             </li>
             <li className="sideBarListItem">
               <BiotechIcon className="sideBarIcon" />
-              مدیریت فروش
+              لیست اجراها
             </li>
             <li className="sideBarListItem">
               <BiotechIcon className="sideBarIcon" />
-              گزارش کلی سیستم
-            </li>
-            <li className="sideBarListItem">
-              <BiotechIcon className="sideBarIcon" />
-              مدیریت پروفایل
+              پیکیج خریداری شده
             </li>
           </ul>
         </div>
