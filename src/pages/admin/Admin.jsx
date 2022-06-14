@@ -1,6 +1,6 @@
 import TopBar from "../../component/topBar/TopBar";
 import SideBar from "../../component/sideBar/SideBar";
-import UserList from "../../component/userList/UserList";
+import UserList from "../userList/UserList";
 import "./admin.css";
 
 export default function Admin() {
