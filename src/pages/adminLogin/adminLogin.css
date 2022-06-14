@@ -1,0 +1,46 @@
+.loginFormContainer{
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginForm{
+    width: 100%;
+    max-width: 600px;
+}
+
+.loginTitle{
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #1565c0;
+}
+
+.formInput{
+    width: 100%;
+    margin-bottom: 20px!important;
+    direction: rtl!important;
+}
+
+.formInput:last-child{
+    margin-bottom: 0!important;
+}
+
+.loginFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.formRadio{
+    margin-right: 0!important;
+    margin-left: 0!important;
+}
+
+.loginButtonContainer{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

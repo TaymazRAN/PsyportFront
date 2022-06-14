@@ -1,0 +1,9 @@
+.admin{
+    display: flex;
+    direction: rtl;
+    margin-top: 20px;
+}
+
+.page{
+    flex: 4;
+}
