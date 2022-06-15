@@ -3,7 +3,7 @@ import SideBar from "../../component/sideBar/SideBar";
 import UserList from "../userList/UserList";
 import CategoryList from "../categoryList/CategoryList";
 import PackageList from "../packageList/PackageList";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import "./admin.css";
 
 export default function Admin() {
