@@ -15,6 +15,10 @@
     margin-left: 10px;
 }
 
+.userListDelete{
+    margin-right: 15px!important;
+}
+
 .userListEdit{
     border-radius: 10px;
     background-color: #06b800;
@@ -40,4 +44,20 @@
 
 .MuiTablePagination-actions{
     direction: ltr;
+}
+
+.topButtonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+
+.topButton{
+    margin-right: 15px;
+}
+
+.topButtonIcon{
+    font-size: 14px;
+    margin-right: 5px;
 }
