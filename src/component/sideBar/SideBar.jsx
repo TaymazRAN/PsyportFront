@@ -49,7 +49,7 @@ export default function SideBar() {
 							className="sideBarListItem"
 						>
 							<CategoryOutlinedIcon className="sideBarIcon" />
-							گروه بندی ها
+							دسته بندی ها
 						</NavLink>
 
 						<NavLink
