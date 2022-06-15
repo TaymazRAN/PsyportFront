@@ -19,12 +19,12 @@ export default function AdminLogin() {
 					<div className="formInputContainer">
 						<TextField
 							className="formInput"
-							id="outlined-required"
+							variant="outlined"
 							label="شناسه کاربری"
 						/>
 						<TextField
 							className="formInput"
-							id="outlined-password-input"
+							variant="outlined"
 							label="رمز ورود"
 							type="password"
 							autoComplete="current-password"

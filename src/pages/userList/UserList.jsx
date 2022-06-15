@@ -1,6 +1,6 @@
 import './userList.css'
 import { DataGrid } from "@mui/x-data-grid";
-import { userColumns, userRows } from './data';
+import { userColumns, userRows } from '../../Data/Users';
 
 export default function UserList() {
   return (

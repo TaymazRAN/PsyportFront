@@ -17,7 +17,9 @@
 .sideBarTitle{
     font-size: 15px;
     font-weight: 500;
-    color: #d81010;
+    padding-right: 10px;
+    border-right: 3px solid #39d3fa;
+    color: #717171;
 }
 
 .sideBarList{
@@ -33,6 +35,16 @@
     font-size: 15px;
     border-radius: 10px;
     margin-bottom: 5px;
+    color: #222222;
+    text-decoration: none;
+}
+
+li.sideBarListItem{
+    color: #777777;
+}
+
+li.sideBarListItem .sideBarIcon{
+    color: #fc5454;
 }
 
 .sideBarListItem:last-child{
@@ -45,6 +57,6 @@
 
 .sideBarIcon{
     margin-left: 5px;
-    font-size: 16px;
+    font-size: 14px;
     color: #39d3fa;
 }

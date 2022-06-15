@@ -14,7 +14,7 @@ function App() {
     <Router className="App">
       <Routes>
         <Route exact path="/" element={<Landing />} />
-        <Route path="/admin" element={<Admin />} />
+        <Route path="/admin/*" element={<Admin />} />
         <Route path="/adminLogin" element={<AdminLogin />} />
         {/* <Route path="/category" element={<Category />} /> */}
         {/* <Route path="/package" element={<Package />} /> */}
